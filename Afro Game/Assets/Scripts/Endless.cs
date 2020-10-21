@@ -27,7 +27,7 @@ public class Endless : MonoBehaviour
         {
             float posZMin = (300f / newObstacles.Count) + (300f / newObstacles.Count) * i;
             float posZMax = (300f / newObstacles.Count) + (300f / newObstacles.Count) * i + 1;
-            newObstacles[i].transform.localPosition = new Vector3((int)Random.Range(-2,2), 0, Random.Range(posZMin, posZMax));
+            newObstacles[i].transform.localPosition = new Vector3((int)Random.Range(-2,2), 1, Random.Range(posZMin, posZMax));
             newObstacles[i].SetActive(true);
         }
     }

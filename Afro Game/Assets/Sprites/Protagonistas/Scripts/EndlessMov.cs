@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EndlessMov : MonoBehaviour
 {
+    public Slider runSlider;
     public float speed = 10f;
     public float lineSpeed = 10f;
     public Rigidbody rb;
@@ -20,6 +22,7 @@ public class EndlessMov : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)){
             changeLine(-2f);
         }
@@ -33,7 +36,8 @@ public class EndlessMov : MonoBehaviour
     }
 
     private void FixedUpdate() {
-        rb.velocity = Vector3.forward * speed;
+        rb.velocity = new Vector3(0,2, 1 * speed);
+        runSlider.value += 0.0001f;
     }
 
 
@@ -43,6 +47,6 @@ public class EndlessMov : MonoBehaviour
             return;
         }
         currentLine = targetLine;
-        verticalTargetPosition = new Vector3((currentLine), transform.position.y, 0);
+        verticalTargetPosition = new Vector3((currentLine),2, 0);
     }
 }

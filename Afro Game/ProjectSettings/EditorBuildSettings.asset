@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Room.unity
+    guid: 35de471ed202ddc4e89083e351e4a510
+  - enabled: 1
+    path: Assets/Scenes/EndlessRunne.unity
+    guid: 80a535a7a2fdbc942b3ef4138d51229b
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: c72026485c3b4fb44925983d55678347
   m_configObjects: {}
