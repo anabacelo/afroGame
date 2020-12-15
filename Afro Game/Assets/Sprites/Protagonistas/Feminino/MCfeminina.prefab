@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 6065592682639671312}
   - component: {fileID: 6065592682639671315}
   - component: {fileID: 6065592682639671308}
-  - component: {fileID: 6065592682639671311}
   - component: {fileID: 6065592682639671310}
+  - component: {fileID: 7983720032919248236}
   m_Layer: 0
   m_Name: MCfeminina
   m_TagString: Untagged
@@ -121,19 +121,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &6065592682639671311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6065592682639671314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d62e1a7dfe32214daa21ce2c997a41e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
 --- !u!65 &6065592682639671310
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -147,3 +134,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.43, y: 4, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7983720032919248236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6065592682639671314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58c446a901c96cf4e8de4b3242082203, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  timer: 0
