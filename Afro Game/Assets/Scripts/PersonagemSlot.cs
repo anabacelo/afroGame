@@ -48,6 +48,12 @@ public class PersonagemSlot : MonoBehaviour
             public Sprite splash;
             public string characterName;
 
+        }
 
+        public int SelectedCharacter(){
+            
+            PlayerPrefs.SetInt(string.Format("Personagem{0}"), selectedCharacterIndex);
+
+            return 1;
         }
 }
