@@ -2,10 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class EndlessMov : MonoBehaviour
 {
     public Slider runSlider;
+    public float atualDistance = 0f;
+    //2687 == 2m:17s
+    public float winDistance = 2687f;
     public float speed = 10f;
     public float lineSpeed = 10f;
     public Rigidbody rb;
@@ -26,6 +30,7 @@ public class EndlessMov : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        atualDistance = transform.position.z;
         uiManager = FindObjectOfType<EndlessUIManager>();
         anim = GetComponentInChildren<Animator>();
         rb = GetComponentInChildren<Rigidbody>();
@@ -45,7 +50,6 @@ public class EndlessMov : MonoBehaviour
         }
         if(Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)){
             changeLine(2f);
-            
         }
 
         Vector3 targetPosition = new Vector3(verticalTargetPosition.x, verticalTargetPosition.y, transform.position.z);
@@ -54,7 +58,14 @@ public class EndlessMov : MonoBehaviour
 
     private void FixedUpdate() {
         rb.velocity = new Vector3(0,2, 1 * speed);
-        runSlider.value += 0.0001f;
+        runSlider.value = atualDistance / winDistance;
+        atualDistance = transform.position.z;
+        if(speed < maxSpeed){
+            speed += 0.1f;
+        }
+        if(runSlider.value == 1){
+            Debug.Log("You Win!!!");
+        }
     }
 
 
@@ -77,6 +88,9 @@ public class EndlessMov : MonoBehaviour
             speed = 0;
             if(currentLife <= 0){
                 //gameOver
+                //youLoseScreen
+                //reloadLevel
+                gameOver();
             } else{
                 StartCoroutine(Blinking(invicibleTime));
             }
@@ -90,6 +104,10 @@ public class EndlessMov : MonoBehaviour
         float blinkPeriod = 0.1f;
         bool enabled = false;
         yield return new WaitForSeconds(1f);
+        float newMinSpeed = minSpeed - 10f;
+        if(newMinSpeed >= minSpeed){
+            minSpeed = newMinSpeed;
+        }
         speed = minSpeed;
         while(timer < time && invicible){
             //Shader.SetGlobalFloat(blinkingValue, currentBlink);
@@ -108,5 +126,11 @@ public class EndlessMov : MonoBehaviour
         //Shader.SetGlobalFloat(blinkingValue, 0);
         invicible = false;
 
+    }
+
+    public void gameOver(){
+        Debug.Log("You Lose");
+        Debug.Log("Reloading...");
+        SceneManager.LoadScene("EndlessRunne");
     }
 }
