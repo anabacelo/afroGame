@@ -7,11 +7,15 @@ public class Endless : MonoBehaviour
     public GameObject[] obstacles;
     public Vector2 numberOfObstacles;
     public List<GameObject> newObstacles;
+    public List<int> rightPositions; 
     // Start is called before the first frame update
     void Start()
     {
         int newNumberOfObstacles = (int) Random.Range(numberOfObstacles.x,numberOfObstacles.y);
         newObstacles.Clear();
+        rightPositions.Add(-2);
+        rightPositions.Add(0);
+        rightPositions.Add(2);
         for (int i = 0; i < newNumberOfObstacles; i++)
         {
             int range = Random.Range(0, obstacles.Length);
@@ -27,7 +31,8 @@ public class Endless : MonoBehaviour
         {
             float posZMin = (300f / newObstacles.Count) + (300f / newObstacles.Count) * i;
             float posZMax = (300f / newObstacles.Count) + (300f / newObstacles.Count) * i + 1;
-            newObstacles[i].transform.localPosition = new Vector3((int)Random.Range(-2,2), 1, Random.Range(posZMin, posZMax));
+            int positionOnRoad = rightPositions[Random.Range(0,3)];
+            newObstacles[i].transform.localPosition = new Vector3(positionOnRoad, 1, Random.Range(posZMin, posZMax));
             newObstacles[i].SetActive(true);
         }
     }
