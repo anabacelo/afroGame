@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/EndlessRunne.unity
+=======
+- path: Assets/Scenes/ChoosePlayer.unity
+>>>>>>> origin/Selecao_Personagem
   isLoaded: 1
   isActive: 1
   isSubScene: 0
