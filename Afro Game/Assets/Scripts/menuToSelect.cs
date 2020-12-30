@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class Cena : MonoBehaviour
+public class menuToSelect : MonoBehaviour
 {
-    public void MudarCena(int indice)
-    {
+    public void PlayGame(int indice){
         SceneManager.LoadScene(indice);
     }
+
+    public void exitGame(){
+        Application.Quit();
+    }
+    
 }
