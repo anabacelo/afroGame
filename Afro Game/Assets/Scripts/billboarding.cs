@@ -16,6 +16,6 @@ public class billboarding : MonoBehaviour
         transform.LookAt(mainCam.transform);
 
         transform.rotation = Quaternion.Euler(0f, transform.rotation.eulerAngles.y, 0f);
-        
+
     }
 }
