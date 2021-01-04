@@ -1,13 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- path: Assets/Scenes/EndlessRunne.unity
-=======
-- path: Assets/Scenes/ChoosePlayer.unity
->>>>>>> origin/Selecao_Personagem
-=======
 - path: Assets/Scenes/Room.unity
->>>>>>> cutscene-casaParaRua
   isLoaded: 1
   isActive: 1
   isSubScene: 0
