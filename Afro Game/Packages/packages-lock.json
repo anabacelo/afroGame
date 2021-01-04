@@ -51,11 +51,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
-<<<<<<< HEAD
-      "version": "8.3.1",
-=======
+
       "version": "10.2.2",
->>>>>>> origin/Selecao_Personagem
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -64,14 +61,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.universal": {
-<<<<<<< HEAD
-      "version": "8.3.1",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.render-pipelines.core": "8.3.1",
-        "com.unity.shadergraph": "8.3.1"
-=======
+
       "version": "10.2.2",
       "depth": 0,
       "source": "registry",
@@ -79,7 +69,6 @@
         "com.unity.mathematics": "1.1.0",
         "com.unity.render-pipelines.core": "10.2.2",
         "com.unity.shadergraph": "10.2.2"
->>>>>>> origin/Selecao_Personagem
       },
       "url": "https://packages.unity.com"
     },
@@ -91,21 +80,13 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
-<<<<<<< HEAD
-      "version": "8.3.1",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.render-pipelines.core": "8.3.1",
-        "com.unity.searcher": "4.0.9"
-=======
+
       "version": "10.2.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.render-pipelines.core": "10.2.2",
         "com.unity.searcher": "4.3.1"
->>>>>>> origin/Selecao_Personagem
       },
       "url": "https://packages.unity.com"
     },

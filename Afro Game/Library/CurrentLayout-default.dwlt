@@ -20,6 +20,7 @@ MonoBehaviour:
     height: 997
   m_ShowMode: 4
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 371}
@@ -28,6 +29,11 @@ MonoBehaviour:
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
 >>>>>>> origin/Selecao_Personagem
+=======
+  m_Title: Timeline
+  m_RootView: {fileID: 2}
+  m_MinSize: {x: 875, y: 392}
+>>>>>>> cutscene-casaParaRua
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -53,12 +59,16 @@ MonoBehaviour:
 <<<<<<< HEAD
     width: 1536
     height: 781
+<<<<<<< HEAD
   m_MinSize: {x: 875, y: 371}
 =======
     width: 1920
     height: 997
   m_MinSize: {x: 875, y: 300}
 >>>>>>> origin/Selecao_Personagem
+=======
+  m_MinSize: {x: 875, y: 392}
+>>>>>>> cutscene-casaParaRua
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -138,9 +148,10 @@ MonoBehaviour:
 <<<<<<< HEAD
     width: 1536
     height: 731
-  m_MinSize: {x: 878, y: 321}
-  m_MaxSize: {x: 22004, y: 14021}
+  m_MinSize: {x: 880, y: 342}
+  m_MaxSize: {x: 22005, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 35172
 =======
     width: 1920
@@ -150,6 +161,9 @@ MonoBehaviour:
   vertical: 0
   controlID: 126
 >>>>>>> origin/Selecao_Personagem
+=======
+  controlID: 457
+>>>>>>> cutscene-casaParaRua
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,8 +184,8 @@ MonoBehaviour:
 <<<<<<< HEAD
     width: 253.6
     height: 731
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -206,11 +220,12 @@ MonoBehaviour:
 <<<<<<< HEAD
     x: 253.6
     y: 0
-    width: 794.4
+    width: 793.6
     height: 731
-  m_MinSize: {x: 402, y: 321}
-  m_MaxSize: {x: 8002, y: 8021}
+  m_MinSize: {x: 404, y: 342}
+  m_MaxSize: {x: 8004, y: 8042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 35085
 =======
     x: 302
@@ -222,6 +237,9 @@ MonoBehaviour:
   vertical: 1
   controlID: 127
 >>>>>>> origin/Selecao_Personagem
+=======
+  controlID: 458
+>>>>>>> cutscene-casaParaRua
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -242,12 +260,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 794.4
+    width: 793.6
     height: 502.4
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 35086
+  controlID: 459
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -265,10 +283,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 317.6
+    width: 373.6
     height: 502.4
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -294,12 +312,16 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 317.6
+=======
+    x: 373.6
+>>>>>>> cutscene-casaParaRua
     y: 0
-    width: 476.80002
+    width: 419.99997
     height: 502.4
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -336,10 +358,10 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
     y: 502.4
-    width: 794.4
+    width: 793.6
     height: 228.6
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -375,14 +397,14 @@ MonoBehaviour:
   - {fileID: 14}
   m_Position:
     serializedVersion: 2
-    x: 1048
+    x: 1047.2
     y: 0
-    width: 488
+    width: 488.80005
     height: 731
-  m_MinSize: {x: 275, y: 321}
-  m_MaxSize: {x: 10001, y: 14021}
+  m_MinSize: {x: 276, y: 342}
+  m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 35173
+  controlID: 428
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -401,7 +423,7 @@ MonoBehaviour:
 <<<<<<< HEAD
     x: 0
     y: 0
-    width: 488
+    width: 488.80005
     height: 454.4
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
@@ -427,7 +449,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 454.4
-    width: 488
+    width: 488.80005
     height: 276.6
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
@@ -471,9 +493,13 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 571.2
+=======
+    x: 627.2
+>>>>>>> cutscene-casaParaRua
     y: 73.6
-    width: 474.80002
+    width: 417.99997
     height: 481.4
 =======
     x: 302
@@ -489,10 +515,14 @@ MonoBehaviour:
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TargetSize: {x: 474.80002, y: 460.4}
 =======
   m_TargetSize: {x: 1148, y: 553}
 >>>>>>> origin/Selecao_Personagem
+=======
+  m_TargetSize: {x: 417.99997, y: 460.4}
+>>>>>>> cutscene-casaParaRua
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -508,8 +538,13 @@ MonoBehaviour:
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -189.92001
     m_HBaseRangeMax: 189.92001
+=======
+    m_HBaseRangeMin: -167.2
+    m_HBaseRangeMax: 167.2
+>>>>>>> cutscene-casaParaRua
     m_VBaseRangeMin: -184.16
     m_VBaseRangeMax: 184.16
 =======
@@ -536,6 +571,7 @@ MonoBehaviour:
       x: 0
       y: 21
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 474.80002
       height: 460.4
     m_Scale: {x: 1.1881001, y: 1.1881001}
@@ -546,6 +582,12 @@ MonoBehaviour:
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 574, y: 276.5}
 >>>>>>> origin/Selecao_Personagem
+=======
+      width: 417.99997
+      height: 460.4
+    m_Scale: {x: 1.1881001, y: 1.1881001}
+    m_Translation: {x: 208.99998, y: 230.2}
+>>>>>>> cutscene-casaParaRua
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -553,12 +595,17 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       x: -199.81482
+=======
+      x: -175.91109
+>>>>>>> cutscene-casaParaRua
       y: -193.75471
-      width: 399.62964
+      width: 351.82217
       height: 387.50943
     m_MinimalGUI: 1
   m_defaultScale: 1
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 593.5, y: 601.75}
 =======
       x: -574
@@ -569,6 +616,9 @@ MonoBehaviour:
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1148, y: 574}
 >>>>>>> origin/Selecao_Personagem
+=======
+  m_LastWindowPixelSize: {x: 522.49994, y: 601.75}
+>>>>>>> cutscene-casaParaRua
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -613,6 +663,7 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: b034ffffeaf9ffff60fbffff4c45000074450000ae450000b64500000e46000012460000
@@ -621,6 +672,11 @@ MonoBehaviour:
       m_LastClickedID: -14440
       m_ExpandedIDs: 04d6ffff1ee8ffff02e9ffffe4f5ffff2cfbffff18470000324700004c470000aa470000804b0000
 >>>>>>> origin/Selecao_Personagem
+=======
+      m_SelectedIDs: 28220000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 20d2ffff24d8ffff
+>>>>>>> cutscene-casaParaRua
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -671,7 +727,7 @@ MonoBehaviour:
 <<<<<<< HEAD
     x: 253.6
     y: 73.6
-    width: 315.6
+    width: 371.6
     height: 481.4
 =======
     x: 302
@@ -692,6 +748,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 97.67135, y: 373.36935, z: -85.70897}
     speed: 2
     m_Value: {x: 97.67135, y: 373.36935, z: -85.70897}
@@ -700,6 +757,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 406.88748, y: 240.24739, z: -127.67295}
 >>>>>>> origin/Selecao_Personagem
+=======
+    m_Target: {x: -14.535002, y: -18.250553, z: -2.6729221}
+    speed: 2
+    m_Value: {x: -14.535002, y: -18.250553, z: -2.6729221}
+>>>>>>> cutscene-casaParaRua
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -747,9 +809,13 @@ MonoBehaviour:
     m_gridOpacity: 0.5
   m_Rotation:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.031104812, y: -0.067416236, z: 0.0024365543, w: 0.9973041}
+=======
+    m_Target: {x: 0.5141762, y: -0.1455619, z: 0.08931, w: 0.84059983}
+>>>>>>> cutscene-casaParaRua
     speed: 2
-    m_Value: {x: -0.031104814, y: 0.06741624, z: -0.0024365543, w: -0.9973041}
+    m_Value: {x: 0.5141377, y: -0.14555101, z: 0.089303315, w: 0.8405369}
   m_Size:
     m_Target: 35.496765
     speed: 2
@@ -946,7 +1012,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 253.6
     y: 576
-    width: 792.4
+    width: 791.6
     height: 207.6
   m_ViewDataDictionary: {fileID: 0}
   m_Preferences:
@@ -1009,9 +1075,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1048
+    x: 1047.2001
     y: 73.6
-    width: 487
+    width: 487.80005
     height: 433.4
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
@@ -1021,9 +1087,8 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 576
-  m_AssetGUID: 
-  m_InstanceID: 0
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
@@ -1061,9 +1126,13 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1048
+=======
+    x: 1047.2001
+>>>>>>> cutscene-casaParaRua
     y: 528
-    width: 487
+    width: 487.80005
     height: 255.6
 =======
     x: 302
@@ -1086,25 +1155,34 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Sprites/Protagonistas/Feminino/Left_Walk
 =======
     - Assets/Scripts
 >>>>>>> origin/Selecao_Personagem
+=======
+    - Assets/Scripts
+>>>>>>> cutscene-casaParaRua
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Assets/Sprites/Protagonistas/Feminino/Left_Walk
 =======
   - Assets/Scripts
 >>>>>>> origin/Selecao_Personagem
+=======
+  - Assets/Scripts
+>>>>>>> cutscene-casaParaRua
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Repositorios\afroGame\Afro Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< HEAD
     scrollPos: {x: 0, y: 164.4}
     m_SelectedIDs: ce460000
@@ -1116,6 +1194,12 @@ MonoBehaviour:
     m_LastClickedID: 18500
     m_ExpandedIDs: 000000003648000000ca9a3b
 >>>>>>> origin/Selecao_Personagem
+=======
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 56810000
+    m_LastClickedID: 33110
+    m_ExpandedIDs: 00000000e0800000e2800000e4800000e6800000e8800000ea800000ec80000000ca9a3b
+>>>>>>> cutscene-casaParaRua
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1144,10 +1228,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000524400005444000056440000584400005a4400005c4400005e44000000ca9a3b
 =======
     m_ExpandedIDs: 0000000036480000
 >>>>>>> origin/Selecao_Personagem
+=======
+    m_ExpandedIDs: 00000000e0800000e2800000e4800000e6800000e8800000ea800000ec80000000ca9a3b
+>>>>>>> cutscene-casaParaRua
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1207,7 +1295,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 89}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
 <<<<<<< HEAD

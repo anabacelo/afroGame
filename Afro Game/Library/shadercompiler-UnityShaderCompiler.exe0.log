@@ -1,6 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Base path: 'D:/Programas/Windows/Unity/2020.1.17f1/Editor/Data', plugins path 'D:/Programas/Windows/Unity/2020.1.17f1/Editor/Data/PlaybackEngines'
 =======
 Base path: 'C:/Program Files/2020.2.0f1/Editor/Data', plugins path 'C:/Program Files/2020.2.0f1/Editor/Data/PlaybackEngines'
 >>>>>>> origin/Selecao_Personagem
+=======
+Base path: 'D:/Programas/Windows/Unity/2020.2.1f1/Editor/Data', plugins path 'D:/Programas/Windows/Unity/2020.2.1f1/Editor/Data/PlaybackEngines'
+>>>>>>> cutscene-casaParaRua
 Cmd: initializeCompiler
+Unhandled exception: Protocol error - unexpected end of data (did the Editor crash?)
+
+Quitting shader compiler process
