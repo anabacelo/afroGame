@@ -855,7 +855,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 25, y: 0, z: 0}
 --- !u!1 &286920264
 GameObject:
@@ -4378,11 +4378,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f47234d4154a8394fa67c900ab11155c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPrefabs:
-  - {fileID: 765859334091191374, guid: b9cda4903f44e1a41a70e3f8241a0c11, type: 3}
-  - {fileID: 643784045}
-  spawnPoint:
-  - {fileID: 267851611}
 --- !u!1 &1182825590
 GameObject:
   m_ObjectHideFlags: 0
@@ -6082,6 +6077,7 @@ MonoBehaviour:
   m_StopNaN: 0
   m_Dithering: 0
   m_ClearDepth: 1
+  m_AllowXRRendering: 1
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
@@ -6225,7 +6221,7 @@ MonoBehaviour:
   cutscene: {fileID: 1104491084}
   objectsToDisable:
   - {fileID: 1885685717}
-  - {fileID: 1725714193}
+  - {fileID: 643784045}
   - {fileID: 645330393}
 --- !u!65 &1565726375
 BoxCollider:
@@ -6413,11 +6409,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1725714193 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6065592682639671314, guid: 4956f7409add20a4a96d5644d8bc1d75, type: 3}
-  m_PrefabInstance: {fileID: 50240967}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1799552704
 GameObject:
   m_ObjectHideFlags: 0
