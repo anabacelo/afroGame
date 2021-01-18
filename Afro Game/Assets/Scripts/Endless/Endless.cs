@@ -13,9 +13,17 @@ public class Endless : MonoBehaviour
     {
         int newNumberOfObstacles = (int) Random.Range(numberOfObstacles.x,numberOfObstacles.y);
         newObstacles.Clear();
+        rightPositions.Add(-10);
+        rightPositions.Add(-8);
+        rightPositions.Add(-6);
+        rightPositions.Add(-4);
         rightPositions.Add(-2);
         rightPositions.Add(0);
         rightPositions.Add(2);
+        rightPositions.Add(10);
+        rightPositions.Add(8);
+        rightPositions.Add(6);
+        rightPositions.Add(4);
         for (int i = 0; i < newNumberOfObstacles; i++)
         {
             int range = Random.Range(0, obstacles.Length);
@@ -31,7 +39,7 @@ public class Endless : MonoBehaviour
         {
             float posZMin = (300f / newObstacles.Count) + (300f / newObstacles.Count) * i;
             float posZMax = (300f / newObstacles.Count) + (300f / newObstacles.Count) * i + 1;
-            int positionOnRoad = rightPositions[Random.Range(0,3)];
+            int positionOnRoad = rightPositions[Random.Range(0,11)];
             newObstacles[i].transform.localPosition = new Vector3(positionOnRoad, 1, Random.Range(posZMin, posZMax));
             newObstacles[i].SetActive(true);
         }

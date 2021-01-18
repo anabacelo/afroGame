@@ -71,7 +71,7 @@ public class EndlessMov : MonoBehaviour
 
     void changeLine(float direction){
         float targetLine = currentLine + direction;
-        if(targetLine < -2f || targetLine > 2f){
+        if(targetLine < -10f || targetLine > 10f){
             return;
         }
         currentLine = targetLine;

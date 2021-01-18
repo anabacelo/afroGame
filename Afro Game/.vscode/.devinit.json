@@ -1,0 +1,9 @@
+{
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
+    "run": [
+        {
+            "tool": "dotnet-restore",
+            "input": "C:\\Users\\vitor\\Trabalho\\projetoGameAfro\\afroGame\\Afro Game\\Assets\\Scripts\\Movement\\EndlessMov.csproj"
+        }
+    ]
+}
