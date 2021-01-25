@@ -6,6 +6,7 @@ public class CameraFollow : MonoBehaviour
 {
     public GameObject target;
     private Transform targetToFollow;
+    public bool isFollowing = true;
     
     //quanto maior, mais suave a camera vai seguir (valores de 0 a 1)
     public float smoothSpeed = 0.125f;
@@ -18,13 +19,19 @@ public class CameraFollow : MonoBehaviour
         targetToFollow = playerToFollow.GetComponent<Transform>();
     }
     private void FixedUpdate() {
-        Vector3 desiredPosition = targetToFollow.position + offset;
-        
-        //Lerp = Linear Interpolation começa do ponto A e termina no B usando uma velocidade X
-        Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
-        transform.position = smoothedPosition;
+        if(isFollowing){
+            Vector3 desiredPosition = targetToFollow.position + offset;
+            
+            //Lerp = Linear Interpolation começa do ponto A e termina no B usando uma velocidade X
+            Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
+            transform.position = smoothedPosition;
 
-        transform.LookAt(targetToFollow);
+            transform.LookAt(targetToFollow);
+        }
+    }
+
+    public void setIsFollowing(bool state){
+        isFollowing = state;
     }
 
     public void SetOffset(string offsetWSpace){
