@@ -12,7 +12,6 @@ public class cutsceneBlackScreen : MonoBehaviour
     public GameObject continueButton;
     public List<GameObject> toDisableAndEnable;
     public GameObject startButton;
-    public GameObject camera;
 
 
     private void Start() {
@@ -54,7 +53,6 @@ public class cutsceneBlackScreen : MonoBehaviour
     }
 
     public IEnumerator starting(CanvasGroup cg, float fadeOutSpeed){
-        camera.SetActive(false);
         toDisableAndEnable.ForEach(item => item.SetActive(true));
         while(cg.alpha > 0){
             cg.alpha -= 0.01f;

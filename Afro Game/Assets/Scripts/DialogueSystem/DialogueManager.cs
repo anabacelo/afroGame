@@ -75,7 +75,6 @@ public class DialogueManager : MonoBehaviour
     }
 
     public void EndDialogue(){
-        //Debug.Log("count Queue sentences after " + setences.Count);
         animatorUI.SetBool("isOpen",false);
 
         if(nextDialoguesIndex < nextDialogues.Length){
@@ -90,8 +89,6 @@ public class DialogueManager : MonoBehaviour
             nextDialoguesIndex++;
         }else if(endCutscene != null && !isPlayed){
             isPlayed = true;
-            //nextDialogueTrigger.SetActive(true);
-            //transform.gameObject.SetActive(false);
             anim.gameObject.SetActive(false);
             endCutscene.Play();
         }
