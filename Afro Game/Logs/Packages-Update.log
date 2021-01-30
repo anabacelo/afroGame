@@ -77,3 +77,13 @@ The following packages were added:
   com.unity.analytics@3.5.3
   com.unity.purchasing@2.1.1
   com.unity.xr.legacyinputhelpers@2.1.6
+
+=== Sat Jan 30 04:04:30 2021
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.purchasing from version 2.1.1 to 2.2.1
+  com.unity.test-framework from version 1.1.19 to 1.1.20
+  com.unity.xr.legacyinputhelpers from version 2.1.6 to 2.1.7
