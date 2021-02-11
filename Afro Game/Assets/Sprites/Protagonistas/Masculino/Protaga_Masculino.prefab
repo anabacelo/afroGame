@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 765859334091191364}
   - component: {fileID: 765859334091191365}
-  - component: {fileID: 765859334091191370}
   - component: {fileID: 765859334091191371}
   - component: {fileID: 765859334091191368}
+  - component: {fileID: 1822198298671089041}
   - component: {fileID: 765859334091191369}
   m_Layer: 0
   m_Name: Protaga_Masculino
@@ -86,19 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &765859334091191370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 765859334091191374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d62e1a7dfe32214daa21ce2c997a41e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
 --- !u!95 &765859334091191371
 Animator:
   serializedVersion: 3
@@ -134,6 +121,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1822198298671089041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765859334091191374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58c446a901c96cf4e8de4b3242082203, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  timer: 0
 --- !u!65 &765859334091191369
 BoxCollider:
   m_ObjectHideFlags: 0
