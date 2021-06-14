@@ -58,12 +58,13 @@ public class EndlessMov : MonoBehaviour
 
     private void FixedUpdate() {
         rb.velocity = new Vector3(0,2, 1 * speed);
-        runSlider.value = atualDistance / winDistance;
         atualDistance = transform.position.z;
         if(speed < maxSpeed){
             speed += 0.1f;
         }
-        if(runSlider.value == 1){
+        //Valida se a distancia atual eh maior ou igual a distancia de vitoria
+        //Se for, significa que o jogador venceu
+        if(atualDistance >= winDistance){
             Debug.Log("You Win!!!");
         }
     }
@@ -82,20 +83,24 @@ public class EndlessMov : MonoBehaviour
         if(invicible){
             return;
         }
+        //Se bater em algum obstaculo
         if(other.CompareTag("Obstacle")){
             currentLife--;
             uiManager.UpdateLifes(currentLife);
             speed = 0;
+            //Se não possuir mais vidas
             if(currentLife <= 0){
                 //gameOver
                 //youLoseScreen
                 //reloadLevel
                 gameOver();
+            //Se ainda tiver alguma vida
             } else{
                 StartCoroutine(Blinking(invicibleTime));
             }
         }
     }
+    //Ativa um tempo de invencibilidade
     IEnumerator Blinking(float time){
         invicible = true;
         float timer = 0;
@@ -104,10 +109,6 @@ public class EndlessMov : MonoBehaviour
         float blinkPeriod = 0.1f;
         bool enabled = false;
         yield return new WaitForSeconds(1f);
-        float newMinSpeed = minSpeed - 10f;
-        if(newMinSpeed >= minSpeed){
-            minSpeed = newMinSpeed;
-        }
         speed = minSpeed;
         while(timer < time && invicible){
             //Shader.SetGlobalFloat(blinkingValue, currentBlink);
@@ -131,6 +132,7 @@ public class EndlessMov : MonoBehaviour
     public void gameOver(){
         Debug.Log("You Lose");
         Debug.Log("Reloading...");
+        //Chama novamente a cena desde o inicio
         SceneManager.LoadScene("EndlessRunne");
     }
 }
